@@ -38,7 +38,7 @@ setup(
             'warp_prism._warp_prism',
             ['warp_prism/_warp_prism.c'],
             include_dirs=[np.get_include()],
-            extra_compile_args=['-std=c99', '-Wall'],
+            extra_compile_args=['-std=c99', '-Wall', '-Wextra'],
             # '-Wextra'
         ),
     ],
